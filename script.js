@@ -55,5 +55,17 @@ console.log(lgStr(strdogArr))
 /////Take an array of strings, and a number//
 //and return an array of the strings that are longer than the given number. ////
 
-const arrCap = ['Raleigh', 'Albany','Richmond','Nashville','Frankfort',8];
+const arrCap = ['Raleigh', 'Albany','Richmond','Nashville','Frankfort'];
+let minNum = 8;
+            function capStr(arrCap){
+                let longestNum = []
+                for (let i=0;i<arrCap.length;i++) {
+                    if (arrCap[i].length > minNum){
+                        longestNum.push(arrCap[i])
+                    }
 
+                }
+            return (longestNum)
+
+            }
+            console.log(capStr(arrCap))
