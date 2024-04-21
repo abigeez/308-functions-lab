@@ -18,22 +18,22 @@ console.log(addedUp)
 ///// take an array of numbers and return the average//////
 
 let meNum = [30,40,50,60,70];
-indNum= meNum.length;
+// indNum= (meNum.length)
 // let indNum = meNum.length;
 // // let avgOf= 
 
-function meanArr(meNum,indNum) {
-    const meanArr = (meNum/indNum)
-    let sum1= 0;
-for (let j=0;j<meNum.length;j++){
-    sum1 =+ meNum[j]
+function meanArr(meNum) {
+
+    let sum = 0;
+for (let i=0;i<meNum.length;i++){
+    sum+=meNum[i]
    
     
 }
-return (sum1/indNum)
+return (sum/meNum.length)
 }
 
+avg = meanArr(meNum);
 
-
-console.log(meanArr(meNum,indNum))
+console.log(avg)
 
