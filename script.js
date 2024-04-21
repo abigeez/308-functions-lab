@@ -18,9 +18,7 @@ console.log(addedUp)
 ///// take an array of numbers and return the average//////
 
 let meNum = [30, 40, 50, 60, 70];
-// indNum= (meNum.length)
-// let indNum = meNum.length;
-// // let avgOf= 
+
 
 function meanArr(meNum) {
 
@@ -52,3 +50,10 @@ function lgStr (strdogArr) {
 }
 
 console.log(lgStr(strdogArr))
+
+
+/////Take an array of strings, and a number//
+//and return an array of the strings that are longer than the given number. ////
+
+const arrCap = ['Raleigh', 'Albany','Richmond','Nashville','Frankfort',8];
+
