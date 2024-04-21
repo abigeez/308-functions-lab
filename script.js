@@ -69,3 +69,20 @@ let minNum = 8;
 
             }
             console.log(capStr(arrCap))
+
+/////////// take number n problem////
+
+
+function recursiveFunc(n) {
+
+console.log(n)
+const decreNum = n - 1;
+
+if (decreNum > 0 ) {
+    recursiveFunc(decreNum)
+
+    }
+}
+
+recursiveFunc(9);
+////
